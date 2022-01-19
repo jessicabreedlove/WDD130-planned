@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Itim&display=swap");
 
 body {
   background-color: #67697C;
@@ -26,7 +26,6 @@ footer {
   justify-content: center;
   line-height: 3.75em;
 }
-
 
 h1,
 h2,
@@ -75,7 +74,7 @@ nav a {
 
 nav li {
   font-family: "Itim", serif;
-  font-size: 1.50em;
+  font-size: 1.5em;
 }
 
 nav ul {
@@ -84,7 +83,6 @@ nav ul {
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
 }
-
 
 img {
   max-width: 100%;
@@ -112,7 +110,7 @@ img {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.cards{
+.cards {
   margin: 0 auto;
   max-width: 1000px;
   display: grid;
@@ -122,23 +120,22 @@ img {
   background-color: #C4828B;
 }
 
-.card{
+.card {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-.card__image{
+.card__image {
   width: 100%;
   height: 40%;
   display: block;
 }
 
-.card__content{
+.card__content {
   line-height: 1.5;
   font-size: 0.9em;
   padding: 15px;
   background: #ffffff;
 }
-
 
 .logo {
   width: 250px;
@@ -146,11 +143,11 @@ img {
   padding: 1em;
 }
 
-.logo-box{
-  grid-column: 3/span 2;
+.logo-box {
+  grid-column: 3/3;
   grid-row: 1/2;
   align-items: center;
-  padding-left: 6em;
+  margin: auto;
 }
 
 .home-grid {
@@ -185,7 +182,7 @@ img {
   grid-row: 5/6;
   text-align: justify;
   margin: 10px 25px 0 25px;
-  background-color: #FFFFFF;;
+  background-color: #FFFFFF;
   padding: 25px 25px 25px 25px;
 }
 
@@ -200,7 +197,7 @@ img {
   grid-column: 1/6;
   grid-row: 8 / 8;
   margin: 0 25px 25px 25px;
-  background-color: #FFFFFF;;
+  background-color: #FFFFFF;
   padding: 25px 25px 25px 25px;
 }
 
@@ -226,7 +223,7 @@ img {
   align-items: center;
 }
 
-.form-box{
+.form-box {
   padding-bottom: 2em;
 }
 
@@ -238,7 +235,7 @@ form {
   padding: 3em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 ul {
@@ -258,7 +255,7 @@ label {
   text-align: right;
 }
 
-input, 
+input,
 textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
@@ -268,33 +265,102 @@ textarea {
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
+    padding: 0.5em;
     /* make this element invisible until we are ready for it */
     display: none;
-        
+  }
 }
 .moveDown {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
-  .plans-grid {
+.plans-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1em;
 }
 
-  .quote-box {
-    grid-column: 5/6;
-    grid-row: 5/6;
-    background-color: #C4828B;
-  }
+.quote-box {
+  grid-column: 5/6;
+  grid-row: 5/6;
+  background-color: #C4828B;
+}
+
+.quote-1 {
+  background-color: #C4828B;
+  font-family: "Itim", sans-serif;
+  padding: 3em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.top-headline {
+  grid column: 1/6;
+  grid-row: 1/2;
+}
+
+
+.about-center-img {
+  width: 300px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 2/4;
+  grid-row: 2/2;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
   
-  .quote-1{
-    background-color: #C4828B;
-    font-family: "Itim", sans-serif;
-    padding: 3em;
-    
-  }
+}
 
+.about-headline-1 {
+  grid-column: 1/6;
+  grid-row: 3/3;
+  margin: 10px 25px 0 25px;
+}
 
+.about-paragraph-1 {
+  grid-column: 1/6;
+  grid-row: 4/4;
+  text-align: justify;
+  margin: 10px 25px 0 25px;
+}
 
+.about-right-img {
+  width: 400px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  grid-column: 3/6;
+  grid-row: 6/6;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-right: 100px;
+  
+
+}
+
+.contact-info-box{
+  width: 200px;
+  height: 300px;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #C4828B;
+  grid-column: 1/1;
+  grid-row: 6/6;
+  padding: 1em;
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: 0;
+  text-align: center;
+  line-height: 2.7em;
+  font-size: 1.2em;
+  
+}
+.about-headline-2 {
+  grid-column: 1/1;
+  grid-row: 5/5;
+  margin-left: 100px;
+  
+}
